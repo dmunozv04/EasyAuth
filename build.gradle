@@ -27,7 +27,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     // Translations
-    modImplementation(include("fr.catcore:server-translations-api:${project.server_translations_version}+${project.server_translations_branch}"))
+    // modImplementation(include("fr.catcore:server-translations-api:${project.server_translations_version}+${project.server_translations_branch}"))
 
     // Permissions
     modImplementation(include("me.lucko:fabric-permissions-api:${project.fabric_permissions_version}"))
@@ -63,7 +63,7 @@ dependencies {
     include "net.java.dev.jna:jna:${jna_version}"
 
     // Placeholder API
-    modImplementation include("eu.pb4:placeholder-api:1.1.3+1.17.1")
+    // modImplementation include("eu.pb4:placeholder-api:1.1.3+1.17.1")
 }
 
 tasks.withType(JavaCompile).configureEach {
